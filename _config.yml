@@ -1,0 +1,12 @@
+title: Hoa Thiên Vũ
+name: Hoa Thiên Vũ
+email: hoathienvu8x@gmail.com
+description: >
+baseurl: "/"
+url: "https://hoathienvu8x.github.io"
+github: "hoathienvu8x"
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+exclude: ['README.md', 'LICENSE']
+future: true
