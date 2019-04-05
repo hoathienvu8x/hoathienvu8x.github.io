@@ -8,6 +8,10 @@ layout: default
     {% if page.tags %}
     <span class="tags">
         Filed under: 
+        {% for tag in page.tags %}
+        	{% capture tag_name %}{{ tag }}{% endcapture %}
+        	<a href="{{ site.url}}/tag/{{ tag_name }}" rel="tag">{{ tag_name }}</a>
+        {% endfor %}
     </span>
     {% endif %}
     {{ content }}

@@ -2,7 +2,7 @@
 layout: post
 title: "How do I parse command line arguments in Bash?"
 date: 2019-04-05 15:29:06 +0700
-tags: [bash, bash script, command line]
+tags: bash bash-script command-line
 ---
 
 ### Method #1: Using bash without getopt[s]
