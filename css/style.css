@@ -347,6 +347,18 @@ section {
       padding-left: 2em;
       padding-right: 2em;
     }
+    .listing li a {
+      display: unset;
+      max-width: unset;
+      white-space: normal;
+      text-overflow: ellipsis;
+      overflow: auto;
+    }
+    .listing time {
+      display: block;
+      float: none;
+      margin-bottom: 1em;
+    }
     main {
       min-height: calc(100vh - 65px - 65px); /*Sticky footer*/
     }
