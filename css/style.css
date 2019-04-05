@@ -320,6 +320,14 @@ td code {
   margin-bottom: 0.5em;
 }
 
+.listing li a {
+  display: inline-block;
+  max-width: 310px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
 .listing time {
   float: right;
   color: #6A737D;
