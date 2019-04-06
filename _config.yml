@@ -3,6 +3,7 @@ name: Hoa Thiên Vũ
 email: hoathienvu8x@gmail.com
 description: >
 baseurl: "/"
+timezone: Asia/Ho_Chi_Minh
 url: "https://hoathienvu8x.github.io"
 github: "hoathienvu8x"
 markdown: kramdown
