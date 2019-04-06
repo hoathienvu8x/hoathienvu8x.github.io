@@ -245,7 +245,7 @@ p code, li code {
 }
 
 
-article figure code {
+article figure code, div.highlight {
   background-color: #FAFAFA;
   border: solid 1px #E8E8E8;
   display: block;
@@ -262,7 +262,7 @@ article figure.shell code pre {
   color: #FFFFFF;
 }
 
-code pre {
+code pre, pre.highlight {
   padding: 1em;
   color: #333333;
 }
