@@ -49,3 +49,5 @@ NSString *newAgent = @"demo-react-native-app";
 NSDictionary *dictionary = [[NSDictionary alloc] initWithObjectsAndKeys:newAgent, @"UserAgent", nil];
 [[NSUserDefaults standardUserDefaults] registerDefaults:dictionary];
 ```
+
+Link follow: [Blog.Bigbinary.Com](https://blog.bigbinary.com/2016/07/10/passing-user-agent-or-custom-header-in-react-native-webview.html)
