@@ -9,8 +9,7 @@ Using [WebView](https://facebook.github.io/react-native/docs/webview.html) in a 
 
 We have seen that in most of the "web view" based applications the links in header are mostly turned in native navigational components. It means server should not be sending header if React Native component is asking for web pages. However those headers should be present if the request is not coming from the React Native app.
 
-Passing custom request headers
-------------------------------
+### Passing custom request headers
 
 We can configure React Native app to pass custom request headers when request is made to the server to fetch pages.
 ```javascript
@@ -29,8 +28,7 @@ renderWebView() {
   )
 }
 ```
-Passing user agent
-------------------
+### Passing user agent
 
 React Native also allows us to pass “userAgent” as a prop. However it is only supported by android version of React Native.
 ```javascript
